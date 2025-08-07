@@ -13,6 +13,15 @@ project-root/
 └── package.json           # (Auto-generated after `npm init`)
 ```
 
+---
+
+we login the influxdb UI by the VPN, the url is http://34.124.128.60:8086
+user: neuron
+password: read .env file
+you can login in and apply for a read-only key.
+
+---
+
 ## ⚙️ 1. Requirements
 
 ### 📦 Install Node.js
