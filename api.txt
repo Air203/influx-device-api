@@ -1,0 +1,7 @@
+neuron's Token: jsUlOA67qTwuMtySk_UfOTXhc0VPZ8ir8SFBpWMWVkONjud2q1wX8HkmCnZiV5yrqE3tOjgoRH19H5D0dl96FQ==
+
+check name of orgs: 
+curl -s http://34.124.128.60:8086/api/v2/orgs \ -H "Authorization: Token jsUlOA67qTwuMtySk_UfOTXhc0VPZ8ir8SFBpWMWVkONjud2q1wX8HkmCnZiV5yrqE3tOjgoRH19H5D0dl96FQ==" \ -H "Accept: application/json"
+
+request data use terminal:
+curl --request POST "http://34.124.128.60:8086/api/v2/query?org=neuron" --header "Authorization: Token jsUlOA67qTwuMtySk_UfOTXhc0VPZ8ir8SFBpWMWVkONjud2q1wX8HkmCnZiV5yrqE3tOjgoRH19H5D0dl96FQ==" --header "Content-Type: application/vnd.flux" --data "from(bucket: \"application_calculation_raw_db\") |> range(start: -7d)"

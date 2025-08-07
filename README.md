@@ -50,7 +50,7 @@ INFLUX_ORG=your_org_id
 INFLUX_BUCKET=your_bucket_name
 ```
 
-> 🔵 **Note:** Replace the values of `INFLUX_TOKEN`, `INFLUX_ORG`, and `INFLUX_BUCKET` with your actual InfluxDB account and project credentials.
+> 🔵 **Note:** Replace the values of `your_token_here`, `your_org_id`, and `your_bucket_name` with your actual InfluxDB account and project credentials.
 
 ---
 
