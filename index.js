@@ -8,6 +8,7 @@ const run = async () => {
     } else {
       console.log("✅ Dữ liệu truy vấn từ InfluxDB:");
       console.log(JSON.stringify(data, null, 2)); // In đẹp
+      console.log("Total data queried: ", data.length);
     }
   } catch (err) {
     console.error("❌ Lỗi khi truy vấn InfluxDB:", err.message || err);
