@@ -5,7 +5,7 @@ This project allows you to query data from **InfluxDB** using Node.js and displa
 ## 📁 Project Structure
 
 ```
-project-root/
+project-name/
 │
 ├── index.js               # Main entry file
 ├── _device.js             # Contains functions to query InfluxDB
@@ -44,7 +44,7 @@ npm install @influxdata/influxdb-client dotenv
 Create a `.env` file in the root directory and add your connection info:
 
 ```env
-INFLUX_URL=https://us-west-2-1.aws.cloud2.influxdata.com
+INFLUX_URL=http://34.124.128.60:8086
 INFLUX_TOKEN=your_token_here
 INFLUX_ORG=your_org_id
 INFLUX_BUCKET=your_bucket_name
@@ -69,7 +69,7 @@ const fluxQuery = `from(bucket: "${INFLUX_BUCKET}")
 `;
 ```
 
----
+## See more Example Query at: https://docs.influxdata.com/influxdb/v2/query-data/flux/
 
 ### 📄 `index.js`
 
