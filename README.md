@@ -20,6 +20,9 @@ user: neuron
 password: read .env file
 you can login in and apply for a read-only key.
 
+Contact email to get use and password:
+Email: leluu738@gmail.com
+
 ---
 
 ## ⚙️ 1. Requirements
